@@ -1,0 +1,37 @@
+SYS:
+1:
+- free; 
+- cat /proc/meminfo
+
+2
+/sys/class/net/<machine>/address.txt
+/var/log/syslog
+
+3:
+/proc/<pid>/limits | Max open files
+
+4:
+/etc/security/limits.conf
+
+BASH: ( #!/bin/bash)
+-1:
+sudo apt-get install git
+sudo apt-get install vagrant
+sudo apt-get install virtualbox
+
+2:
+sudo apt-get install git && sudo apt get install vagrant && sudo apt-get install virtualbox
+
+3:
+for i in 1 2 3 4 5 6 7 8 9
+do
+	echo $i
+done
+
+4:
+for i in 1 2 3 4 5 6 7 8 9
+do
+	touch file_$i
+done
+
+
